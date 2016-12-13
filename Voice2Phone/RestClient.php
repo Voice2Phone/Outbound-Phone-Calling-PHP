@@ -1,5 +1,5 @@
 <?php
-namespace Voice2Phone\Api;
+namespace Voice2Phone;
 include 'MakeCallResponse.php';
 include 'GetCallStatusResponse.php';
 
