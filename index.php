@@ -1,6 +1,6 @@
 <?php
-use Voice2Phone\Api;
-include 'RestClient.php';
+use Voice2Phone;
+include 'Voice2Phone\RestClient.php';
 
 
 $apiSercretKey = "<type your api secret key here>";
