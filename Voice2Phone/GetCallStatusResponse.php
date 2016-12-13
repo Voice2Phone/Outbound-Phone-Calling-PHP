@@ -1,6 +1,6 @@
 <?php
 
-namespace Voice2Phone\Api;
+namespace Voice2Phone;
 
 class GetCallStatusResponse
 {
