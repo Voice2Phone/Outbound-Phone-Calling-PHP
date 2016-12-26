@@ -1,0 +1,14 @@
+{
+    "name": "voice2phone/voice2phone-php-client",
+    "description": "Voice2Phone PHP helper library to make outbound phone calls using Voice2Phone API",
+    "authors": [
+        {
+            "name": "Voice2Phone Softwate Inc.",
+            "email": "team@voice2phone.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+         "classmap": ["voice2phone.php"]
+    }
+}
