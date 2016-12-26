@@ -1,8 +1,36 @@
 <?php
-namespace Voice2Phone;
-include 'MakeCallResponse.php';
-include 'GetCallStatusResponse.php';
 
+namespace Voice2Phone;
+
+class MakeCallResponse
+{    
+    public $HttpStatus;
+
+    public $ErrorMessage;
+
+    public $CallId;
+
+}
+
+
+class GetCallStatusResponse
+{
+    
+    public $Dtmf;
+
+    public $CreatedDateUtc;
+
+    public $UpdatedDateUtc;
+
+    public $Status;
+
+    public $HttpStatus;
+
+    public $ErrorMessage;
+
+    public $CallId;
+
+}
 
 class RestClient
 {

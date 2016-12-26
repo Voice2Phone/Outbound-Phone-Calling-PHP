@@ -1,12 +1,12 @@
 <?php
 use Voice2Phone;
-include 'Voice2Phone\RestClient.php';
+include 'voice2phone.php';
 
 
-$apiSercretKey = "<type your api secret key here>";
-$phone = "<type your phone number here>";
-$countryCode = "<type two letter country code here. For example: US, CA, etc...>";
-$message = "Hello, please press one or two";
+$apiSercretKey = "0bd514ffc2135c4de8cb9c9c7e8f15f20912";
+$phone = "7789602591";
+$countryCode = "CA";
+$message = "Hello";
 
 
 $res = Voice2Phone\RestClient::MakeCall($apiSercretKey, $phone, $countryCode, $message,  array("1"=>"You pressed one", "2"=>"You pressed two") );
