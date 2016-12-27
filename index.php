@@ -3,10 +3,10 @@ use Voice2Phone;
 include 'voice2phone.php';
 
 
-$apiSercretKey = "0bd514ffc2135c4de8cb9c9c7e8f15f20912";
-$phone = "7789602591";
-$countryCode = "CA";
-$message = "Hello";
+$apiSercretKey = "type your secrete api key here";
+$phone = "type your phone number here";
+$countryCode = "type your two letter country code here";
+$message = "type your message here";
 
 
 $res = Voice2Phone\RestClient::MakeCall($apiSercretKey, $phone, $countryCode, $message,  array("1"=>"You pressed one", "2"=>"You pressed two") );
